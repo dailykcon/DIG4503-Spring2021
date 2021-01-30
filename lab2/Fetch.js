@@ -1,4 +1,5 @@
 import chalk from 'chalk';
+import axios from 'axios';
 
 class Fetch {
   
@@ -7,7 +8,7 @@ class Fetch {
       this.color = color;
     }
   
-    fetch() { import axios from 'axios';
+    fetch() {
 
     // Fetch this URL
     axios ('https://pokeapi.co/api/v2/pokemon/' + this.pokemon)
