@@ -21,14 +21,14 @@ function Search() {
   }
 
   return (
-    <div>
+    <div class="input">
       <input
         type="text"
         onChange={event => {
           setSearch(event.target.value);
         }}
       />
-      <button onClick={() => searchPokemon()}>Search Pokedex:</button>
+      <button onClick={() => searchPokemon()}>Search Pokedex</button>
 
       {<p>Results:{search}</p>}
       {loading == true ? (

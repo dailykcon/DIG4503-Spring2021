@@ -1,3 +1,4 @@
+  
 import React from "react";
 
 class Pokemon extends React.Component {
@@ -7,7 +8,7 @@ class Pokemon extends React.Component {
   render() {
     return (
       <div>
-        <img src={props.pokemon.sprites.front_default} />
+        <img src={this.props.sprites} />
         <h2>{this.props.name}</h2>
         <p>{this.props.id}</p>
       </div>
