@@ -30,7 +30,7 @@ function Search() {
       />
       <button onClick={() => searchPokemon()}>Search Pokedex</button>
 
-      {<p>Results:{search}</p>}
+      {<p>Results:</p>}
       {loading == true ? (
         <p>{error}</p>
       ) : (
