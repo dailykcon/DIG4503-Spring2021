@@ -1,0 +1,54 @@
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif,
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin:auto;
+  display:flex;
+  margin-top: 2%;
+}
+
+.input {
+  font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+left: 0;
+line-height: 50px;
+margin-top: -100px;
+text-align: center;
+width: 100%;
+padding-top: 10%;
+}
+
+p, h2 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+left: 0;
+line-height: 50px;
+margin-top: -100px;
+text-align: center;
+width: 100%;
+padding-top: 7.5%;
+padding-bottom: 1%;
+}
+
+img {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
