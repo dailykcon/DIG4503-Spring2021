@@ -3,7 +3,7 @@ import React from 'react';
 function PokemonAdded (props) {
     return(
         <div>
-            <p>Favorite Pokemon: Log Item {props.count}</p>
+            <p>Favorite Pokemon Logged! <br></br>Additional Favorites: {props.count}</p>
         </div>
     )
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Pokemon from "../Pokemon";
 import Axios from "axios";
+import "./styles.css";
 
 function Search() {
   const [search, setSearch] = useState("");
@@ -22,6 +23,7 @@ function Search() {
 
   return (
     <div class="input">
+      <h1>POKEDEX 2.0 </h1>
       <input
         type="text"
         onChange={event => {
