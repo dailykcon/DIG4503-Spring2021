@@ -19,14 +19,14 @@ function Get() {
     
     return(
       <div>
-        <h2>Book Information</h2>
+        <h2>Retrieve book</h2>
 
         <input type = "text" placeholder= "ISBN" value={ISBN} onChange={(event) => setISBN(event.target.value)}/>
         <input type = "text" placeholder= "Title" value={title} onChange={(event) => setTitle(event.target.value)}/>
         <input type = "text" placeholder="Author" value={author} onChange={(event) => setAuthor(event.target.value)}/>
         <input type = "text" placeholder="Description" value={description} onChange={(event) => setDescription(event.target.value)}/>
     
-        <button onClick = {() => {getBook()}}>Retrieve book</button>
+        <button onClick = {() => {getBook()}}>Submit</button>
         </div>
       );
     }

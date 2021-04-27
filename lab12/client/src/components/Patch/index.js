@@ -19,14 +19,14 @@ function Patch() {
     
     return(
       <div>
-        <h2>Book Information</h2>
+        <h2>Update Book</h2>
         
         <input type = "text" placeholder= "ISBN" value={ISBN} onChange={(event) => setISBN(event.target.value)}/>
         <input type = "text" placeholder= "Title" value={title} onChange={(event) => setTitle(event.target.value)}/>
         <input type = "text" placeholder="Author" value={author} onChange={(event) => setAuthor(event.target.value)}/>
         <input type = "text" placeholder="Description" value={description} onChange={(event) => setDescription(event.target.value)}/>
     
-        <button onClick = {() => {patchBook()}}>Update book</button>
+        <button onClick = {() => {patchBook()}}>Submit</button>
         </div>
       );
     }
