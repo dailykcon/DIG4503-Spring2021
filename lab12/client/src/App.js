@@ -5,7 +5,7 @@ import Patch from './components/Patch';
 
 function App() {
   return (
-    <div className="App">
+    <div class="App">
       <Put/>
       <Get/>
       <Patch/>
