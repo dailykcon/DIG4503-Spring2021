@@ -9,7 +9,7 @@ function Put() {
     const[description, setDescription] = useState("");
     
     const putBook = async() => {
-      const response = await Axios.get("http://localhost:45030/books/" + ISBN, {
+      const response = await Axios.Put("http://localhost:45030/books/" + ISBN, {
         title:title,
         author:author,
         description:description});
