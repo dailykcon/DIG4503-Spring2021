@@ -9,7 +9,7 @@ function Get() {
     const[description, setDescription] = useState("");
     
     const getBook = async() => {
-      const response = await Axios.get("http://localhost:45030/books/" + ISBN, {
+      const response = await Axios.Get("http://localhost:45030/books/" + ISBN, {
         title:title,
         author:author,
         description:description});

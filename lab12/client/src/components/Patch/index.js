@@ -9,7 +9,7 @@ function Patch() {
     const[description, setDescription] = useState("");
     
     const patchBook = async() => {
-      const response = await Axios.get("http://localhost:45030/books/" + ISBN, {
+      const response = await Axios.Patch("http://localhost:45030/books/" + ISBN, {
         title:title,
         author:author,
         description:description});
