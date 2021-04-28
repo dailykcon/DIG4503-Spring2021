@@ -10,7 +10,7 @@ App.use(CORS());
 
 const db = new Database();
 
-db.connect("lab12", "books");
+db.connect("lab11", "books");
 
 App.put("/books/:ISBN", async (req, res) => {
   const ISBN = req.params.ISBN;

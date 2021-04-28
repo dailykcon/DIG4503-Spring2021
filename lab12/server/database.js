@@ -9,9 +9,9 @@ class Database {
       this.collection = null;
     }
   
-    async connect(lab12, books) {
+    async connect(lab11, books) {
       this.connection = await MongoClient.connect(URL);
-      this.database = this.connection.db(lab12);
+      this.database = this.connection.db(lab11);
       this.collection = this.database.collection(books);
     }
   
