@@ -2,7 +2,7 @@ import './App.css';
 import Put from './components/Put';
 import Get from './components/Get';
 import Patch from './components/Patch';
-import Patch from './components/Delete';
+import Delete from './components/Delete';
 
 function App() {
   return (
